@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF35F1F01DF73762003F7BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF35F1EF1DF73762003F7BBD /* main.m */; };
+		CF35F1F31DF73762003F7BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF35F1F21DF73762003F7BBD /* AppDelegate.m */; };
+		CF35F1F61DF73762003F7BBD /* MosCapture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF35F1F41DF73762003F7BBD /* MosCapture.xcdatamodeld */; };
+		CF35F1F81DF73762003F7BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF35F1F71DF73762003F7BBD /* Assets.xcassets */; };
+		CF35F1FB1DF73762003F7BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF35F1F91DF73762003F7BBD /* LaunchScreen.storyboard */; };
+		CF35F2061DF73762003F7BBD /* MosCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF35F2051DF73762003F7BBD /* MosCaptureTests.m */; };
+		CF35F2111DF73762003F7BBD /* MosCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF35F2101DF73762003F7BBD /* MosCaptureUITests.m */; };
+		CF35F2201DF73772003F7BBD /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF35F21F1DF73772003F7BBD /* WelcomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF35F2021DF73762003F7BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF35F1E31DF73762003F7BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF35F1EA1DF73762003F7BBD;
+			remoteInfo = MosCapture;
+		};
+		CF35F20D1DF73762003F7BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF35F1E31DF73762003F7BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF35F1EA1DF73762003F7BBD;
+			remoteInfo = MosCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF35F1EB1DF73762003F7BBD /* MosCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF35F1EF1DF73762003F7BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF35F1F11DF73762003F7BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF35F1F21DF73762003F7BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF35F1F51DF73762003F7BBD /* MosCapture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MosCapture.xcdatamodel; sourceTree = "<group>"; };
+		CF35F1F71DF73762003F7BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF35F1FA1DF73762003F7BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF35F1FC1DF73762003F7BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF35F2011DF73762003F7BBD /* MosCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF35F2051DF73762003F7BBD /* MosCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosCaptureTests.m; sourceTree = "<group>"; };
+		CF35F2071DF73762003F7BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF35F20C1DF73762003F7BBD /* MosCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF35F2101DF73762003F7BBD /* MosCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosCaptureUITests.m; sourceTree = "<group>"; };
+		CF35F2121DF73762003F7BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF35F21E1DF73772003F7BBD /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		CF35F21F1DF73772003F7BBD /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		CF35F2211DF73896003F7BBD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF35F1E81DF73762003F7BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F1FE1DF73762003F7BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F2091DF73762003F7BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF35F1E21DF73762003F7BBD = {
+			isa = PBXGroup;
+			children = (
+				CF35F1ED1DF73762003F7BBD /* MosCapture */,
+				CF35F2041DF73762003F7BBD /* MosCaptureTests */,
+				CF35F20F1DF73762003F7BBD /* MosCaptureUITests */,
+				CF35F1EC1DF73762003F7BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF35F1EC1DF73762003F7BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF35F1EB1DF73762003F7BBD /* MosCapture.app */,
+				CF35F2011DF73762003F7BBD /* MosCaptureTests.xctest */,
+				CF35F20C1DF73762003F7BBD /* MosCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF35F1ED1DF73762003F7BBD /* MosCapture */ = {
+			isa = PBXGroup;
+			children = (
+				CF35F1F11DF73762003F7BBD /* AppDelegate.h */,
+				CF35F1F21DF73762003F7BBD /* AppDelegate.m */,
+				CF35F21E1DF73772003F7BBD /* WelcomeViewController.h */,
+				CF35F21F1DF73772003F7BBD /* WelcomeViewController.m */,
+				CF35F1F71DF73762003F7BBD /* Assets.xcassets */,
+				CF35F1F91DF73762003F7BBD /* LaunchScreen.storyboard */,
+				CF35F1FC1DF73762003F7BBD /* Info.plist */,
+				CF35F1F41DF73762003F7BBD /* MosCapture.xcdatamodeld */,
+				CF35F1EE1DF73762003F7BBD /* Supporting Files */,
+			);
+			path = MosCapture;
+			sourceTree = "<group>";
+		};
+		CF35F1EE1DF73762003F7BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF35F1EF1DF73762003F7BBD /* main.m */,
+				CF35F2211DF73896003F7BBD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF35F2041DF73762003F7BBD /* MosCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF35F2051DF73762003F7BBD /* MosCaptureTests.m */,
+				CF35F2071DF73762003F7BBD /* Info.plist */,
+			);
+			path = MosCaptureTests;
+			sourceTree = "<group>";
+		};
+		CF35F20F1DF73762003F7BBD /* MosCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF35F2101DF73762003F7BBD /* MosCaptureUITests.m */,
+				CF35F2121DF73762003F7BBD /* Info.plist */,
+			);
+			path = MosCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF35F1EA1DF73762003F7BBD /* MosCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF35F2151DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCapture" */;
+			buildPhases = (
+				CF35F1E71DF73762003F7BBD /* Sources */,
+				CF35F1E81DF73762003F7BBD /* Frameworks */,
+				CF35F1E91DF73762003F7BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosCapture;
+			productName = MosCapture;
+			productReference = CF35F1EB1DF73762003F7BBD /* MosCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF35F2001DF73762003F7BBD /* MosCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF35F2181DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCaptureTests" */;
+			buildPhases = (
+				CF35F1FD1DF73762003F7BBD /* Sources */,
+				CF35F1FE1DF73762003F7BBD /* Frameworks */,
+				CF35F1FF1DF73762003F7BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF35F2031DF73762003F7BBD /* PBXTargetDependency */,
+			);
+			name = MosCaptureTests;
+			productName = MosCaptureTests;
+			productReference = CF35F2011DF73762003F7BBD /* MosCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF35F20B1DF73762003F7BBD /* MosCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF35F21B1DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCaptureUITests" */;
+			buildPhases = (
+				CF35F2081DF73762003F7BBD /* Sources */,
+				CF35F2091DF73762003F7BBD /* Frameworks */,
+				CF35F20A1DF73762003F7BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF35F20E1DF73762003F7BBD /* PBXTargetDependency */,
+			);
+			name = MosCaptureUITests;
+			productName = MosCaptureUITests;
+			productReference = CF35F20C1DF73762003F7BBD /* MosCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF35F1E31DF73762003F7BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Mos_tec;
+				TargetAttributes = {
+					CF35F1EA1DF73762003F7BBD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SMA328KK58;
+						ProvisioningStyle = Automatic;
+					};
+					CF35F2001DF73762003F7BBD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SMA328KK58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF35F1EA1DF73762003F7BBD;
+					};
+					CF35F20B1DF73762003F7BBD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SMA328KK58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF35F1EA1DF73762003F7BBD;
+					};
+				};
+			};
+			buildConfigurationList = CF35F1E61DF73762003F7BBD /* Build configuration list for PBXProject "MosCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF35F1E21DF73762003F7BBD;
+			productRefGroup = CF35F1EC1DF73762003F7BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF35F1EA1DF73762003F7BBD /* MosCapture */,
+				CF35F2001DF73762003F7BBD /* MosCaptureTests */,
+				CF35F20B1DF73762003F7BBD /* MosCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF35F1E91DF73762003F7BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF35F1F81DF73762003F7BBD /* Assets.xcassets in Resources */,
+				CF35F1FB1DF73762003F7BBD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F1FF1DF73762003F7BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F20A1DF73762003F7BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF35F1E71DF73762003F7BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF35F1F61DF73762003F7BBD /* MosCapture.xcdatamodeld in Sources */,
+				CF35F2201DF73772003F7BBD /* WelcomeViewController.m in Sources */,
+				CF35F1F31DF73762003F7BBD /* AppDelegate.m in Sources */,
+				CF35F1F01DF73762003F7BBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F1FD1DF73762003F7BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF35F2061DF73762003F7BBD /* MosCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35F2081DF73762003F7BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF35F2111DF73762003F7BBD /* MosCaptureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF35F2031DF73762003F7BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF35F1EA1DF73762003F7BBD /* MosCapture */;
+			targetProxy = CF35F2021DF73762003F7BBD /* PBXContainerItemProxy */;
+		};
+		CF35F20E1DF73762003F7BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF35F1EA1DF73762003F7BBD /* MosCapture */;
+			targetProxy = CF35F20D1DF73762003F7BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF35F1F91DF73762003F7BBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF35F1FA1DF73762003F7BBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF35F2131DF73762003F7BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF35F2141DF73762003F7BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF35F2161DF73762003F7BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SMA328KK58;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MosCapture/PrefixHeader.pch";
+				INFOPLIST_FILE = MosCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF35F2171DF73762003F7BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SMA328KK58;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MosCapture/PrefixHeader.pch";
+				INFOPLIST_FILE = MosCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF35F2191DF73762003F7BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SMA328KK58;
+				INFOPLIST_FILE = MosCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosCapture.app/MosCapture";
+			};
+			name = Debug;
+		};
+		CF35F21A1DF73762003F7BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SMA328KK58;
+				INFOPLIST_FILE = MosCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosCapture.app/MosCapture";
+			};
+			name = Release;
+		};
+		CF35F21C1DF73762003F7BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SMA328KK58;
+				INFOPLIST_FILE = MosCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosCapture;
+			};
+			name = Debug;
+		};
+		CF35F21D1DF73762003F7BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SMA328KK58;
+				INFOPLIST_FILE = MosCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MosApp.MosCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF35F1E61DF73762003F7BBD /* Build configuration list for PBXProject "MosCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF35F2131DF73762003F7BBD /* Debug */,
+				CF35F2141DF73762003F7BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF35F2151DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF35F2161DF73762003F7BBD /* Debug */,
+				CF35F2171DF73762003F7BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF35F2181DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF35F2191DF73762003F7BBD /* Debug */,
+				CF35F21A1DF73762003F7BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF35F21B1DF73762003F7BBD /* Build configuration list for PBXNativeTarget "MosCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF35F21C1DF73762003F7BBD /* Debug */,
+				CF35F21D1DF73762003F7BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF35F1F41DF73762003F7BBD /* MosCapture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF35F1F51DF73762003F7BBD /* MosCapture.xcdatamodel */,
+			);
+			currentVersion = CF35F1F51DF73762003F7BBD /* MosCapture.xcdatamodel */;
+			path = MosCapture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF35F1E31DF73762003F7BBD /* Project object */;
+}
